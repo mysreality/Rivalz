@@ -9,7 +9,7 @@
 ```
 function dailyClaim() {
     // Butonun sınıf adını kullanarak butonu seç
-    var claimButton = document.querySelector("button.inline-flex.items-center.justify-center.whitespace-nowrap.rounded-md.text-sm.font-medium.ring-offset-background.transition-colors.disabled\\:pointer-events-none.disabled\\:opacity-50.focus-visible\\:outline-\\[darkgrey\\].border.border-input.bg-background.hover\\:bg-accent.hover\\:text-accent-foreground.h-10.px-4.py-2.mt-4.md\\:mt-12.max-w-96.w-full");
+    var claimButton = document.querySelector("button.inline-flex.items-center.justify-center.whitespace-nowrap.ring-offset-background.transition-colors.disabled\\:pointer-events-none.disabled\\:opacity-50.focus-visible\\:outline-\\[darkgrey\\].text-primary-foreground.hover\\:bg-primary\\/90.relative.z-10.max-w-48.mt-3.py-4.px-8.h-\\[48px\\].text-base.font-light.bg-transparent.rounded-\\[8px\\].w-full.gradient-outline-orange.hover\\:gradient-border-orange");
     
     if (claimButton) {
         claimButton.click();
